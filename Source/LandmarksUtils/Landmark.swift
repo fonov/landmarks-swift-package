@@ -29,7 +29,7 @@ extension Landmark {
   }
 
   public struct Coordinates: Codable, Hashable {
-    var longitude: Double
-    var latitude: Double
+    public var longitude: Double
+    public var latitude: Double
   }
 }
