@@ -16,12 +16,9 @@ public struct Landmark: Codable, Hashable, Identifiable {
   public var isFavorite: Bool
   public var park: String
   public var description: String
-
-  private var imageName: String
-
+  public var _imageName: String
   public var category: Category
-  
-  private var coordinates: Coordinates
+  public var _coordinates: Coordinates
 }
 
 extension Landmark {

@@ -14,7 +14,6 @@ public struct Hike: Codable, Identifiable {
   public var id: Int
   public var distance: Double
   public var difficulty: Int
-
   public var observations: [Observation]
 }
 
