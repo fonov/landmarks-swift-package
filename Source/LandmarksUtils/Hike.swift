@@ -19,9 +19,9 @@ public struct Hike: Codable, Identifiable {
 
 extension Hike {
   public struct Observation: Codable, Hashable {
-    var elevation: Range<Double>
-    var pace: Range<Double>
-    var heartRate: Range<Double>
-    var distanceFromStart: Double
+    public var elevation: Range<Double>
+    public var pace: Range<Double>
+    public var heartRate: Range<Double>
+    public var distanceFromStart: Double
   }
 }
